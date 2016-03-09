@@ -17,6 +17,14 @@ class VideoInfo
         define_method(method) { nil }
       end
 
+      def author
+        data['owner.screenname']
+      end
+
+      def author_url
+        data['owner.url']
+      end
+
       def keywords
         data['tags']
       end
@@ -71,7 +79,8 @@ class VideoInfo
         "https://#{_api_base}#{_api_path}?" \
         'fields=id,title,description,duration,created_time,' \
         'url,views_total,tags,thumbnail_url,thumbnail_720_url,' \
-        'thumbnail_240_url,thumbnail_60_url'
+        'thumbnail_240_url,thumbnail_60_url,' \
+        'owner.screenname,owner.url'
       end
 
       def _default_iframe_attributes

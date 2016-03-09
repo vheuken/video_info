@@ -23,7 +23,7 @@ http_interactions:
       X-Dm-Api-Object:
       - video
       X-Dm-Backnode:
-      - web-523.adm.dc3.dailymotion.com:80
+      - web-130.adm.dailymotion.com:80
       X-Dm-Api-Method:
       - info
       Cache-Control:
@@ -37,13 +37,13 @@ http_interactions:
       X-Dm-Tg:
       - v-x7lni3
       X-Dm-Lb-Name:
-      - lb-10
+      - lb-07
       X-Dm-Random-Number:
-      - '8088004'
+      - '4317979'
       Access-Control-Allow-Origin:
       - "*"
       X-Dm-Backnode-Response-Time:
-      - '49'
+      - '73'
       Etag:
       - W/"rQeFNlJ5iMPO8gmsSDhiVw-gzip"
       X-Robots-Tag:
@@ -66,13 +66,13 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 09 Mar 2016 19:19:34 GMT
+      - Wed, 09 Mar 2016 20:13:53 GMT
       Age:
       - '0'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-fra1227-FRA, cache-sjc3120-SJC
+      - cache-fra1225-FRA, cache-sjc3125-SJC
       X-Cache:
       - MISS, MISS
       X-Cache-Hits:
@@ -88,9 +88,9 @@ http_interactions:
       string: '{"id":"x7lni3","title":"Mario Kart (R\u00e9mi Gaillard)","description":"Super
         R\u00e9mi Kart est un jeu vid\u00e9o de course d\u00e9velopp\u00e9 et \u00e9dit\u00e9
         par N''Importe Quoi TV. Sa principale originalit\u00e9 vient de sa r\u00e9alit\u00e9...<br
-        \/>L''aventure continue sur www.nimportequi.com","duration":136,"created_time":1228321771,"url":"http:\/\/www.dailymotion.com\/video\/x7lni3_mario-kart-remi-gaillard_fun","views_total":10297198,"tags":["r\u00e9mi","remi","gaillard","imposteur","imposture","mario","bros","kart","nintendo","jeux"],"thumbnail_url":"http:\/\/s2.dmcdn.net\/BgWxI.jpg","thumbnail_720_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x720-YcV.jpg","thumbnail_240_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x240-b83.jpg","thumbnail_60_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x60-kbf.jpg"}'
+        \/>L''aventure continue sur www.nimportequi.com","duration":136,"created_time":1228321771,"url":"http:\/\/www.dailymotion.com\/video\/x7lni3_mario-kart-remi-gaillard_fun","views_total":10297199,"tags":["r\u00e9mi","remi","gaillard","imposteur","imposture","mario","bros","kart","nintendo","jeux"],"thumbnail_url":"http:\/\/s2.dmcdn.net\/BgWxI.jpg","thumbnail_720_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x720-YcV.jpg","thumbnail_240_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x240-b83.jpg","thumbnail_60_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x60-kbf.jpg"}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 19:19:34 GMT
+  recorded_at: Wed, 09 Mar 2016 20:13:53 GMT
 - request:
     method: get
     uri: https://api.dailymotion.com/video/x7lni3?fields=id,title,description,duration,created_time,url,views_total,tags,thumbnail_url,thumbnail_720_url,thumbnail_240_url,thumbnail_60_url,channel
@@ -133,8 +133,6 @@ http_interactions:
       - '3092090'
       Access-Control-Allow-Origin:
       - "*"
-      X-Dm-Backnode-Response-Time:
-      - '51'
       Etag:
       - W/"rQeFNlJ5iMPO8gmsSDhiVw-gzip"
       X-Robots-Tag:
@@ -157,21 +155,23 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 09 Mar 2016 20:16:59 GMT
+      - Wed, 09 Mar 2016 20:17:01 GMT
       Age:
-      - '0'
+      - '2'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-fra1224-FRA, cache-sjc3126-SJC
+      - cache-fra1224-FRA, cache-sjc3130-SJC
       X-Cache:
-      - MISS, MISS
+      - MISS, HIT
       X-Cache-Hits:
-      - 0, 0
+      - 0, 1
       Vary:
       - X-DM-EC-Geo-Country, Accept-Encoding
+      X-Dm-Backnode-Response-Time:
+      - '0'
       X-Dm-Cache-Status:
-      - MISS
+      - HIT
       X-Dm-Edge:
       - Fastly
     body:
@@ -181,7 +181,7 @@ http_interactions:
         par N''Importe Quoi TV. Sa principale originalit\u00e9 vient de sa r\u00e9alit\u00e9...<br
         \/>L''aventure continue sur www.nimportequi.com","duration":136,"created_time":1228321771,"url":"http:\/\/www.dailymotion.com\/video\/x7lni3_mario-kart-remi-gaillard_fun","views_total":10297199,"tags":["r\u00e9mi","remi","gaillard","imposteur","imposture","mario","bros","kart","nintendo","jeux"],"thumbnail_url":"http:\/\/s2.dmcdn.net\/BgWxI.jpg","thumbnail_720_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x720-YcV.jpg","thumbnail_240_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x240-b83.jpg","thumbnail_60_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x60-kbf.jpg","channel":"fun"}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 20:16:59 GMT
+  recorded_at: Wed, 09 Mar 2016 20:17:01 GMT
 - request:
     method: get
     uri: https://api.dailymotion.com/video/x7lni3?fields=id,title,description,duration,created_time,url,views_total,tags,thumbnail_url,thumbnail_720_url,thumbnail_240_url,thumbnail_60_url,owner.screenname,owner.url
@@ -224,8 +224,6 @@ http_interactions:
       - '5828650'
       Access-Control-Allow-Origin:
       - "*"
-      X-Dm-Backnode-Response-Time:
-      - '70'
       Etag:
       - W/"rQeFNlJ5iMPO8gmsSDhiVw-gzip"
       X-Robots-Tag:
@@ -248,21 +246,23 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 09 Mar 2016 20:17:51 GMT
+      - Wed, 09 Mar 2016 20:17:53 GMT
       Age:
-      - '0'
+      - '2'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-fra1228-FRA, cache-sjc3129-SJC
+      - cache-fra1228-FRA, cache-sjc3124-SJC
       X-Cache:
-      - MISS, MISS
+      - MISS, HIT
       X-Cache-Hits:
-      - 0, 0
+      - 0, 2
       Vary:
       - X-DM-EC-Geo-Country, Accept-Encoding
+      X-Dm-Backnode-Response-Time:
+      - '0'
       X-Dm-Cache-Status:
-      - MISS
+      - HIT
       X-Dm-Edge:
       - Fastly
     body:
@@ -273,5 +273,5 @@ http_interactions:
         \/>L''aventure continue sur www.nimportequi.com","duration":136,"created_time":1228321771,"url":"http:\/\/www.dailymotion.com\/video\/x7lni3_mario-kart-remi-gaillard_fun","views_total":10297199,"tags":["r\u00e9mi","remi","gaillard","imposteur","imposture","mario","bros","kart","nintendo","jeux"],"thumbnail_url":"http:\/\/s2.dmcdn.net\/BgWxI.jpg","thumbnail_720_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x720-YcV.jpg","thumbnail_240_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x240-b83.jpg","thumbnail_60_url":"http:\/\/s2.dmcdn.net\/BgWxI\/x60-kbf.jpg","owner.screenname":"R\u00e9mi
         Gaillard","owner.url":"http:\/\/www.dailymotion.com\/nqtv"}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 20:17:51 GMT
+  recorded_at: Wed, 09 Mar 2016 20:17:53 GMT
 recorded_with: VCR 3.0.1

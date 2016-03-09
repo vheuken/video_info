@@ -124,6 +124,16 @@ describe VideoInfo::Providers::Dailymotion do
       subject { super().view_count }
       it { is_expected.to be > 10000000 }
     end
+
+    describe '#author' do
+      subject { super().author }
+      it { is_expected.to eq 'Rémi Gaillard' }
+    end
+
+    describe '#author_url' do
+      subject { super().author_url }
+      it { is_expected.to eq 'http://www.dailymotion.com/nqtv' }
+    end
   end
 
   context "with video x7lni3 and url_attributes", :vcr do
