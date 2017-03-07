@@ -18,39 +18,39 @@ http_interactions:
       code: 400
       message: Bad Request
     headers:
+      Access-Control-Allow-Origin:
+      - "*"
       Www-Authenticate:
       - 'OAuth "Facebook Platform" "invalid_token" "Error validating access token:
         Session has expired on Thursday, 24-Mar-16 01:00:00 PDT. The current time
-        is Tuesday, 24-Jan-17 23:29:46 PST."'
-      Access-Control-Allow-Origin:
-      - "*"
+        is Monday, 06-Mar-17 20:11:52 PST."'
       Pragma:
       - no-cache
       Cache-Control:
       - no-store
-      Expires:
-      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Rev:
+      - '2873744'
       Content-Type:
       - application/json; charset=UTF-8
       X-Fb-Trace-Id:
-      - BBFs9iKNkoG
-      X-Fb-Rev:
-      - '2794421'
+      - Gak+vUZBj+W
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:
       - Accept-Encoding
       X-Fb-Debug:
-      - Dwao9teK375xQus9lWSUyHByvuUnt4LdESKJF5Z9o7JFS9iVhUifxo2z64DnkCAfQ9qL1sdTuYEUq/o0r3kN7Q==
+      - s+z5FQGdg0EErgAYiM8pG5M1Niy/m3rYiaWTSl6jNTdx9p1zLtmv++oCL8QRo6iRO4ERzWBFnfwtIacaIszsiw==
       Date:
-      - Wed, 25 Jan 2017 07:29:46 GMT
+      - Tue, 07 Mar 2017 04:11:52 GMT
       Connection:
       - keep-alive
       Content-Length:
-      - '214'
+      - '215'
     body:
       encoding: ASCII-8BIT
       string: '{"error":{"message":"Error validating access token: Session has expired
-        on Thursday, 24-Mar-16 01:00:00 PDT. The current time is Tuesday, 24-Jan-17
-        23:29:46 PST.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"BBFs9iKNkoG"}}'
+        on Thursday, 24-Mar-16 01:00:00 PDT. The current time is Monday, 06-Mar-17
+        20:11:52 PST.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Gak+vUZBj+W"}}'
     http_version: 
-  recorded_at: Wed, 25 Jan 2017 07:29:46 GMT
+  recorded_at: Tue, 07 Mar 2017 04:11:52 GMT
 recorded_with: VCR 3.0.3

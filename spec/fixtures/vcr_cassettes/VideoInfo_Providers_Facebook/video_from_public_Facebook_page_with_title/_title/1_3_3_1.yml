@@ -21,38 +21,38 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Etag:
-      - '"6888824785334e1f07952aa38221b8b425152226"'
+      - '"bff58695ffd0e97bf578e9779597790ed3d9a6e8"'
       Pragma:
       - no-cache
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '2873744'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Db2mYOpy0nR
       Facebook-Api-Version:
       - v2.5
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      X-Fb-Trace-Id:
-      - BSa1n+VVVzw
-      X-Fb-Rev:
-      - '2794421'
       Vary:
       - Accept-Encoding
       X-Fb-Debug:
-      - Aqx2kpQfdH27EQzouHJHgqJOlro+io59DoLyU4CdFEdnXfN/rFJ1UKxdgE092Nn2xDZ8nbH9aNBmBA2Q6pkPhA==
+      - EKz2qTj1emz7GiND2pmHmnCN1CgUfGue/ylzFyYEkBUmwmd7tCh4COwLAb/TzmXNPMWQWwDirdwlq9UpSDKUfA==
       Date:
-      - Wed, 25 Jan 2017 07:29:42 GMT
+      - Tue, 07 Mar 2017 04:11:49 GMT
       Connection:
       - keep-alive
       Content-Length:
-      - '292'
+      - '290'
     body:
       encoding: ASCII-8BIT
       string: '{"created_time":"2015-10-30T16:30:01+0000","from":{"name":"Republique
-        D''Eg\u00fces","id":"171086066559073"},"length":26.459,"picture":"https:\/\/scontent.xx.fbcdn.net\/v\/t15.0-10\/p128x128\/12105557_195409484126731_875852838_n.jpg?oh=91643272a3581b0fb3434b59c0ac3fe4&oe=5900EBB4","title":"Hank
+        D''Eg\u00fces","id":"171086066559073"},"length":26.459,"picture":"https:\/\/scontent.xx.fbcdn.net\/v\/t15.0-10\/p128x128\/12105557_195409484126731_875852838_n.jpg?oh=8ff787db9bb117e033d2e91f0e6d5401&oe=592878B4","title":"Hank
         listens to Bolivarian Music","id":"195408520793494"}'
     http_version: 
-  recorded_at: Wed, 25 Jan 2017 07:29:42 GMT
+  recorded_at: Tue, 07 Mar 2017 04:11:49 GMT
 - request:
     method: get
     uri: https://graph.facebook.com/v2.5/171086066559073/picture?access_token=1526814430954328%7C1bd1051b2e630584a5fa01a8ebf21cad&redirect=0
@@ -74,34 +74,34 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Etag:
-      - '"52077f4caa82b5892e4db00c5d587615ce52af90"'
+      - '"859b45a4fec3d73596e5aabdfe7d389e7fa9a357"'
       Pragma:
       - no-cache
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '2873744'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Bhrqis0lnqV
       Facebook-Api-Version:
       - v2.5
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      X-Fb-Trace-Id:
-      - GlicZB60Y46
-      X-Fb-Rev:
-      - '2794421'
       Vary:
       - Accept-Encoding
       X-Fb-Debug:
-      - 5l6k0IepTUn7DjN+DxOnSqjAgs5oWxvjaMcpDZCBQF9ZxPxaDH/8kJzs6s8inC8yNo55ktkdGGgOlSZ03cGUVg==
+      - PWdPyVv9aMeOklCX0qllkOx8+xb6xj1hSDYHQsHKjocrQuvmpHp34EEwmEVLgXRyA2fsza5TlJrdRiI9lIPfhA==
       Date:
-      - Wed, 25 Jan 2017 07:29:43 GMT
+      - Tue, 07 Mar 2017 04:11:49 GMT
       Connection:
       - keep-alive
       Content-Length:
-      - '182'
+      - '189'
     body:
       encoding: ASCII-8BIT
-      string: '{"data":{"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/16265821_398698717131139_4235329689498754214_n.jpg?oh=b700302e44a46244ec8f0b5fae4790b4&oe=591EBBF2"}}'
+      string: '{"data":{"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/c1.0.50.50\/p50x50\/17155423_417627051904972_2493566446878299883_n.jpg?oh=75bb8bd42482829018c2fac41838673a&oe=593BFA94"}}'
     http_version: 
-  recorded_at: Wed, 25 Jan 2017 07:29:42 GMT
+  recorded_at: Tue, 07 Mar 2017 04:11:49 GMT
 recorded_with: VCR 3.0.3
